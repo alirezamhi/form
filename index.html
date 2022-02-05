@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/all.css">
     <title>form</title>
 </head>
 <body>
@@ -13,19 +14,24 @@
         <div class="title">Engineer</div>
         <div class="value">
             <div class="username">
-                <div></div>
-                <input type="text" class="username-input" placeholder="username">
+                <div class="username-icon">
+                    <i class="fas fa-user icon"></i>
+                    <input type="text" class="username-input" placeholder="username">
+                </div>
+                <span class="msg"></span>
             </div>
-            <span class="msg"></span>
             <div class="password">
-                <!-- <input type="password" class="password-input" placeholder="Password">
-                <input type="checkbox" id="visit">
-                <label for="visit">Show Password</label> -->
+                <div class="password-icon eyes">
+                    <i class="fas fa-lock icon"></i>
+                    <input type="password" class="password-input" placeholder="Password">
+                </div>
+                <span class="msg"></span>
             </div>
-            <span class="msg"></span>
         </div>
-        <button type="button"></button>
+        <button type="button">submit</button>
         <span class="msg-sucessful"></span>
     </form>
+    <script src="./script/all.js"></script>
+    <script src="./script/script.js"></script>
 </body>
 </html>
