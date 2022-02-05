@@ -82,8 +82,8 @@ form {
 .icon{
     margin-left: 10px;
 }
-.username{
-    margin-bottom: 40px;
+.password{
+    margin-top: 15px;
 }
 button{
     border-radius: 8px;
@@ -106,7 +106,10 @@ button{
 .msg-sucessful{
     color: green;
 }
-.msg{
+.msg-username{
+    color: red;
+}
+.msg-password{
     color: red;
 }
 
